@@ -3,10 +3,10 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 # Configuration
-INPUT_VIDEOS_DIR = "CarPlateRecognitionDataset"     
+INPUT_VIDEOS_DIR = "Test"     
 OUTPUT_FRAMES_DIR = "all_frames"     
 SECONDS_INTERVAL = 10                
-MAX_WORKERS = 4                      
+MAX_WORKERS = 2                    
 
 def process_video(video_file):
     video_path = os.path.join(INPUT_VIDEOS_DIR, video_file)
@@ -58,7 +58,7 @@ def main():
     
     video_files = [
         f for f in os.listdir(INPUT_VIDEOS_DIR) 
-        if f.lower().endswith(".mp4")
+        if f.lower().endswith((".mp4", ".ts"))
     ]
 
     if not video_files:
