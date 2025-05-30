@@ -77,6 +77,7 @@ python create_coco_tf_record.py \
 8. Edit the pipeline.config file and the filepaths inside it, such as train_input_reader and eval_input_reader. Point pipeline.config to the config file included in GitHub.
 
 9. Finally, run training with(filepaths are just examples) :
+
 python models/research/object_detection/model_main_tf2.py `
 --model_dir="C:..\checkpoint" ` #output folder
 --pipeline_config_path="C:...\pipeline.config" `
