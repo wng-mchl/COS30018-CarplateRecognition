@@ -1,7 +1,6 @@
 # 🚗 COS30018 - Car Plate Recognition System
 
-![Project Banner](https://unsplash.com/photos/cars-passing-through-north-and-south-Xbh_OGLRfUM) 
-
+![Banner](images/traffic.png)
 
 ## 📌 Project Overview
 This repository contains the training pipelines and models for our **Car Plate Recognition System**, developed as part of COS30018. The system combines:
