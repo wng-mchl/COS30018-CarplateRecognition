@@ -29,10 +29,10 @@ cd models/research
 
 4. Compile and Install the Object Detection API
 
-# From models/research/
+From models/research/
 protoc object_detection/protos/*.proto --python_out=.
 
-# Install the package
+Install the package
 cp object_detection/packages/tf2/setup.py .
 pip install -e .
 
